@@ -17,7 +17,7 @@ mongoimport --file ./cwiczenia2.json -u mangouser -p m@ng0 --authenticationDatab
 
 To run a script using `mongosh`, use the following command template:
 
-```bash
+```
 mongosh nbd -u mangouser -p m@ng0 --authenticationDatabase=admin --quiet zapytanie_XX.js
 ```
 where `zapytanie_XX.js` is the script's filename (replace `XX` with a script number). The above command should be run from the directory of the corresponding lab.
