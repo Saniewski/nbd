@@ -1,7 +1,0 @@
-#!/bin/bash
-
-CONTAINER_ID=$(docker container list --filter NAME=mongo --format '{{.ID}}')
-
-docker exec -it $CONTAINER_ID /usr/bin/mongosh nbd -u mangouser -p m@ng0 --authenticationDatabase=admin --quiet
-
-exit 0

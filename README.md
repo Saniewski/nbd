@@ -20,12 +20,12 @@ After succesfully creating and running the mongodb container, run the following 
 To run a script using `mongosh`, use the following command template:
 
 ```
-./run-script NN XX
+./run-script XX
 ```
-where `NN` is the number of lab (e.g. `lab01`), and `XX` is the script's number from the script's filename (e.g. `zapytanie_03.js`). The above command should be run from the directory of the corresponding lab.
+where `XX` is the script's number from the script's filename that you want to run (e.g. `zapytanie_01.js`). The above command should be run from the directory of the corresponding lab.
 The above script runs the following command from the context of the docker container:
 ```
-mongosh nbd -u mangouser -p m@ng0 --authenticationDatabase=admin --quiet zapytanie_XX.js
+mongosh nbd -u mangouser -p m@ng0 --authenticationDatabase=admin --quiet zapytanie_$1.js
 ```
 
 ## Author
