@@ -1,0 +1,7 @@
+#!/bin/bash
+
+CONTAINER_ID=$(docker container list --filter NAME=mongo --format '{{.ID}}')
+
+docker exec -it $CONTAINER_ID /usr/bin/mongoimport --file /opt/cwiczenia2.json -u mangouser -p m@ng0 --authenticationDatabase=admin --db nbd --jsonArray -c people
+
+exit 0
