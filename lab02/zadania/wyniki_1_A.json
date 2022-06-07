@@ -1,0 +1,12 @@
+]0;mongosh mongodb://127.0.0.1:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000[1G[0J [1G[
+  {
+    _id: [32m'Female'[39m,
+    avgWeight: [33m70.11384105960265[39m,
+    avgHeight: [33m167.12617499498293[39m
+  },
+  {
+    _id: [32m'Male'[39m,
+    avgWeight: [33m70.00180785329879[39m,
+    avgHeight: [33m167.0800817221447[39m
+  }
+]

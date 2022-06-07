@@ -34,4 +34,4 @@ printjson(db.people.aggregate([
       maxBmi: { $max: "$bmi" }
     }
   }
-]))
+]).toArray())

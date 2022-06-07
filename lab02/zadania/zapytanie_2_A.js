@@ -9,4 +9,4 @@ printjson(db.people.aggregate([
       overallBalance: { $sum: { $toDouble: "$credit.balance" } }
     }
   }
-]))
+]).toArray())

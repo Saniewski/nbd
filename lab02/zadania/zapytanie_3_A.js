@@ -5,4 +5,4 @@ printjson(db.people.aggregate([
       _id: "$job"
     }
   }
-]))
+]).toArray())

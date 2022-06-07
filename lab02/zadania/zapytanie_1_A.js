@@ -7,4 +7,4 @@ printjson(db.people.aggregate([
       avgHeight: { $avg: { $toDouble: "$height" } }
     }
   }
-]))
+]).toArray())
