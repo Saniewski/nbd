@@ -1,0 +1,15 @@
+]0;mongosh mongodb://127.0.0.1:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000[1G[0J [1GDeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+{
+  results: [
+    {
+      _id: [32m'Female'[39m,
+      value: { avgWeight: [33m69.62432269717038[39m, avgHeight: [33m166.62131246237206[39m }
+    },
+    {
+      _id: [32m'Male'[39m,
+      value: { avgWeight: [33m69.50687661949372[39m, avgHeight: [33m166.59138927646003[39m }
+    }
+  ],
+  ok: [33m1[39m
+}

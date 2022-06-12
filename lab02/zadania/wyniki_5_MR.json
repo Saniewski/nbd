@@ -1,0 +1,200 @@
+]0;mongosh mongodb://127.0.0.1:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000[1G[0J [1GDeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+{
+  results: [
+    {
+      _id: [32m'NGN'[39m,
+      value: { avgBalance: [33m4157.705[39m, sumBalance: [33m24946.23[39m }
+    },
+    {
+      _id: [32m'BRL'[39m,
+      value: { avgBalance: [33m4512.001818181819[39m, sumBalance: [33m49632.020000000004[39m }
+    },
+    { _id: [32m'ZMW'[39m, value: { avgBalance: [33m5569.56[39m, sumBalance: [33m5569.56[39m } },
+    { _id: [32m'PKR'[39m, value: { avgBalance: [33m4734.5[39m, sumBalance: [33m18938[39m } },
+    {
+      _id: [32m'MGA'[39m,
+      value: { avgBalance: [33m4853.663333333333[39m, sumBalance: [33m14560.99[39m }
+    },
+    {
+      _id: [32m'CLP'[39m,
+      value: { avgBalance: [33m5252.2375[39m, sumBalance: [33m21008.95[39m }
+    },
+    { _id: [32m'KZT'[39m, value: { avgBalance: [33m3788.95[39m, sumBalance: [33m3788.95[39m } },
+    { _id: [32m'RWF'[39m, value: { avgBalance: [33m4632.88[39m, sumBalance: [33m4632.88[39m } },
+    {
+      _id: [32m'BGN'[39m,
+      value: { avgBalance: [33m5300.22[39m, sumBalance: [33m21200.88[39m }
+    },
+    {
+      _id: [32m'CZK'[39m,
+      value: { avgBalance: [33m4644.552500000001[39m, sumBalance: [33m37156.420000000006[39m }
+    },
+    {
+      _id: [32m'COP'[39m,
+      value: { avgBalance: [33m4936.6825[39m, sumBalance: [33m19746.73[39m }
+    },
+    { _id: [32m'ARS'[39m, value: { avgBalance: [33m4648.4[39m, sumBalance: [33m23242[39m } },
+    { _id: [32m'XPF'[39m, value: { avgBalance: [33m4759.07[39m, sumBalance: [33m4759.07[39m } },
+    { _id: [32m'PYG'[39m, value: { avgBalance: [33m4874.69[39m, sumBalance: [33m4874.69[39m } },
+    { _id: [32m'NIO'[39m, value: { avgBalance: [33m4985.64[39m, sumBalance: [33m9971.28[39m } },
+    { _id: [32m'UZS'[39m, value: { avgBalance: [33m3573.03[39m, sumBalance: [33m3573.03[39m } },
+    {
+      _id: [32m'PLN'[39m,
+      value: { avgBalance: [33m5042.82111111111[39m, sumBalance: [33m90770.77999999998[39m }
+    },
+    { _id: [32m'MAD'[39m, value: { avgBalance: [33m3818.85[39m, sumBalance: [33m3818.85[39m } },
+    {
+      _id: [32m'HRK'[39m,
+      value: { avgBalance: [33m4870.964[39m, sumBalance: [33m24354.82[39m }
+    },
+    { _id: [32m'VUV'[39m, value: { avgBalance: [33m6418.27[39m, sumBalance: [33m6418.27[39m } },
+    {
+      _id: [32m'TZS'[39m,
+      value: { avgBalance: [33m3526.1850000000004[39m, sumBalance: [33m7052.370000000001[39m }
+    },
+    { _id: [32m'NZD'[39m, value: { avgBalance: [33m5328.46[39m, sumBalance: [33m5328.46[39m } },
+    { _id: [32m'SRD'[39m, value: { avgBalance: [33m5286.68[39m, sumBalance: [33m5286.68[39m } },
+    {
+      _id: [32m'IDR'[39m,
+      value: { avgBalance: [33m4907.918030303031[39m, sumBalance: [33m323922.59[39m }
+    },
+    { _id: [32m'TJS'[39m, value: { avgBalance: [33m4087.71[39m, sumBalance: [33m4087.71[39m } },
+    {
+      _id: [32m'LYD'[39m,
+      value: { avgBalance: [33m4382.495[39m, sumBalance: [33m8764.99[39m }
+    },
+    { _id: [32m'NOK'[39m, value: { avgBalance: [33m4773.66[39m, sumBalance: [33m4773.66[39m } },
+    {
+      _id: [32m'ZAR'[39m,
+      value: { avgBalance: [33m3930.306666666667[39m, sumBalance: [33m11790.92[39m }
+    },
+    { _id: [32m'RSD'[39m, value: { avgBalance: [33m4276.56[39m, sumBalance: [33m4276.56[39m } },
+    {
+      _id: [32m'XOF'[39m,
+      value: { avgBalance: [33m5960.683333333333[39m, sumBalance: [33m17882.05[39m }
+    },
+    {
+      _id: [32m'XAF'[39m,
+      value: { avgBalance: [33m4698.22[39m, sumBalance: [33m14094.660000000002[39m }
+    },
+    { _id: [32m'IQD'[39m, value: { avgBalance: [33m4269.39[39m, sumBalance: [33m4269.39[39m } },
+    {
+      _id: [32m'CUP'[39m,
+      value: { avgBalance: [33m5005.78[39m, sumBalance: [33m15017.34[39m }
+    },
+    { _id: [32m'ALL'[39m, value: { avgBalance: [33m3325.48[39m, sumBalance: [33m3325.48[39m } },
+    { _id: [32m'KYD'[39m, value: { avgBalance: [33m3760.89[39m, sumBalance: [33m3760.89[39m } },
+    {
+      _id: [32m'YER'[39m,
+      value: { avgBalance: [33m4570.833333333333[39m, sumBalance: [33m13712.5[39m }
+    },
+    { _id: [32m'GTQ'[39m, value: { avgBalance: [33m5806.3[39m, sumBalance: [33m5806.3[39m } },
+    {
+      _id: [32m'UAH'[39m,
+      value: {
+        avgBalance: [33m5058.9800000000005[39m,
+        sumBalance: [33m40471.840000000004[39m
+      }
+    },
+    { _id: [32m'BYR'[39m, value: { avgBalance: [33m5095.79[39m, sumBalance: [33m5095.79[39m } },
+    { _id: [32m'GBP'[39m, value: { avgBalance: [33m6149.19[39m, sumBalance: [33m6149.19[39m } },
+    {
+      _id: [32m'SEK'[39m,
+      value: { avgBalance: [33m5060.013571428572[39m, sumBalance: [33m70840.19[39m }
+    },
+    { _id: [32m'ISK'[39m, value: { avgBalance: [33m4316.41[39m, sumBalance: [33m4316.41[39m } },
+    {
+      _id: [32m'RUB'[39m,
+      value: { avgBalance: [33m4989.547916666667[39m, sumBalance: [33m119749.15000000001[39m }
+    },
+    { _id: [32m'VEF'[39m, value: { avgBalance: [33m4166.64[39m, sumBalance: [33m8333.28[39m } },
+    {
+      _id: [32m'JPY'[39m,
+      value: { avgBalance: [33m5078.7283333333335[39m, sumBalance: [33m60944.74[39m }
+    },
+    {
+      _id: [32m'CAD'[39m,
+      value: { avgBalance: [33m5306.872727272727[39m, sumBalance: [33m58375.6[39m }
+    },
+    {
+      _id: [32m'IRR'[39m,
+      value: { avgBalance: [33m4417.373333333334[39m, sumBalance: [33m26504.24[39m }
+    },
+    {
+      _id: [32m'USD'[39m,
+      value: { avgBalance: [33m5040.668750000001[39m, sumBalance: [33m80650.70000000001[39m }
+    },
+    {
+      _id: [32m'DOP'[39m,
+      value: {
+        avgBalance: [33m5168.6849999999995[39m,
+        sumBalance: [33m20674.739999999998[39m
+      }
+    },
+    {
+      _id: [32m'ILS'[39m,
+      value: { avgBalance: [33m5431.829999999999[39m, sumBalance: [33m16295.489999999998[39m }
+    },
+    { _id: [32m'BOB'[39m, value: { avgBalance: [33m5263.3[39m, sumBalance: [33m5263.3[39m } },
+    {
+      _id: [32m'MXN'[39m,
+      value: { avgBalance: [33m5022.9[39m, sumBalance: [33m50228.99999999999[39m }
+    },
+    {
+      _id: [32m'PEN'[39m,
+      value: { avgBalance: [33m4645.47[39m, sumBalance: [33m23227.350000000002[39m }
+    },
+    {
+      _id: [32m'HNL'[39m,
+      value: { avgBalance: [33m5504.863333333334[39m, sumBalance: [33m16514.59[39m }
+    },
+    { _id: [32m'MKD'[39m, value: { avgBalance: [33m3835.05[39m, sumBalance: [33m3835.05[39m } },
+    { _id: [32m'ZWL'[39m, value: { avgBalance: [33m5792.17[39m, sumBalance: [33m5792.17[39m } },
+    {
+      _id: [32m'VND'[39m,
+      value: { avgBalance: [33m4520.032499999999[39m, sumBalance: [33m36160.259999999995[39m }
+    },
+    { _id: [32m'NPR'[39m, value: { avgBalance: [33m5792.26[39m, sumBalance: [33m5792.26[39m } },
+    { _id: [32m'CDF'[39m, value: { avgBalance: [33m6114.4[39m, sumBalance: [33m12228.8[39m } },
+    {
+      _id: [32m'EUR'[39m,
+      value: { avgBalance: [33m4901.829399999999[39m, sumBalance: [33m245091.46999999994[39m }
+    },
+    { _id: [32m'ETB'[39m, value: { avgBalance: [33m5436.11[39m, sumBalance: [33m5436.11[39m } },
+    {
+      _id: [32m'PHP'[39m,
+      value: { avgBalance: [33m4941.928333333332[39m, sumBalance: [33m118606.27999999998[39m }
+    },
+    { _id: [32m'BWP'[39m, value: { avgBalance: [33m4076.29[39m, sumBalance: [33m4076.29[39m } },
+    { _id: [32m'MYR'[39m, value: { avgBalance: [33m4781.12[39m, sumBalance: [33m4781.12[39m } },
+    {
+      _id: [32m'AMD'[39m,
+      value: { avgBalance: [33m4921.866[39m, sumBalance: [33m24609.33[39m }
+    },
+    {
+      _id: [32m'AFN'[39m,
+      value: { avgBalance: [33m5585.163333333334[39m, sumBalance: [33m16755.49[39m }
+    },
+    {
+      _id: [32m'CNY'[39m,
+      value: { avgBalance: [33m4954.740842105264[39m, sumBalance: [33m470700.38000000006[39m }
+    },
+    {
+      _id: [32m'MNT'[39m,
+      value: { avgBalance: [33m5428.9025[39m, sumBalance: [33m21715.61[39m }
+    },
+    {
+      _id: [32m'KRW'[39m,
+      value: { avgBalance: [33m6689.91[39m, sumBalance: [33m13379.82[39m }
+    },
+    { _id: [32m'EGP'[39m, value: { avgBalance: [33m5579.3[39m, sumBalance: [33m5579.3[39m } },
+    {
+      _id: [32m'THB'[39m,
+      value: { avgBalance: [33m4604.392[39m, sumBalance: [33m23021.96[39m }
+    },
+    { _id: [32m'MWK'[39m, value: { avgBalance: [33m3574.42[39m, sumBalance: [33m3574.42[39m } },
+    { _id: [32m'MMK'[39m, value: { avgBalance: [33m4629.42[39m, sumBalance: [33m4629.42[39m } }
+  ],
+  ok: [33m1[39m
+}

@@ -1,0 +1,189 @@
+]0;mongosh mongodb://127.0.0.1:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000[1G[0J [1GDeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+{
+  results: [
+    { _id: [32m'Professor'[39m, value: [32m'Professor'[39m },
+    { _id: [32m'Dental Hygienist'[39m, value: [32m'Dental Hygienist'[39m },
+    { _id: [32m'Occupational Therapist'[39m, value: [32m'Occupational Therapist'[39m },
+    { _id: [32m'Teacher'[39m, value: [32m'Teacher'[39m },
+    { _id: [32m'Programmer Analyst I'[39m, value: [32m'Programmer Analyst I'[39m },
+    {
+      _id: [32m'Desktop Support Technician'[39m,
+      value: [32m'Desktop Support Technician'[39m
+    },
+    { _id: [32m'Director of Sales'[39m, value: [32m'Director of Sales'[39m },
+    { _id: [32m'Project Manager'[39m, value: [32m'Project Manager'[39m },
+    {
+      _id: [32m'Human Resources Assistant I'[39m,
+      value: [32m'Human Resources Assistant I'[39m
+    },
+    { _id: [32m'Research Assistant I'[39m, value: [32m'Research Assistant I'[39m },
+    {
+      _id: [32m'Budget/Accounting Analyst I'[39m,
+      value: [32m'Budget/Accounting Analyst I'[39m
+    },
+    { _id: [32m'Financial Analyst'[39m, value: [32m'Financial Analyst'[39m },
+    { _id: [32m'Web Developer III'[39m, value: [32m'Web Developer III'[39m },
+    { _id: [32m'Recruiting Manager'[39m, value: [32m'Recruiting Manager'[39m },
+    {
+      _id: [32m'Computer Systems Analyst II'[39m,
+      value: [32m'Computer Systems Analyst II'[39m
+    },
+    { _id: [32m'Web Designer I'[39m, value: [32m'Web Designer I'[39m },
+    { _id: [32m'Staff Accountant III'[39m, value: [32m'Staff Accountant III'[39m },
+    {
+      _id: [32m'Accounting Assistant III'[39m,
+      value: [32m'Accounting Assistant III'[39m
+    },
+    {
+      _id: [32m'Community Outreach Specialist'[39m,
+      value: [32m'Community Outreach Specialist'[39m
+    },
+    { _id: [32m'Staff Accountant I'[39m, value: [32m'Staff Accountant I'[39m },
+    { _id: [32m'Help Desk Operator'[39m, value: [32m'Help Desk Operator'[39m },
+    { _id: [32m'Research Associate'[39m, value: [32m'Research Associate'[39m },
+    { _id: [32m'Help Desk Technician'[39m, value: [32m'Help Desk Technician'[39m },
+    {
+      _id: [32m'Business Systems Development Analyst'[39m,
+      value: [32m'Business Systems Development Analyst'[39m
+    },
+    {
+      _id: [32m'Human Resources Assistant III'[39m,
+      value: [32m'Human Resources Assistant III'[39m
+    },
+    {
+      _id: [32m'Automation Specialist II'[39m,
+      value: [32m'Automation Specialist II'[39m
+    },
+    { _id: [32m'Research Assistant II'[39m, value: [32m'Research Assistant II'[39m },
+    { _id: [32m'Health Coach I'[39m, value: [32m'Health Coach I'[39m },
+    { _id: [32m'Programmer I'[39m, value: [32m'Programmer I'[39m },
+    { _id: [32m'Accounting Assistant I'[39m, value: [32m'Accounting Assistant I'[39m },
+    { _id: [32m'Statistician I'[39m, value: [32m'Statistician I'[39m },
+    { _id: [32m'Accountant III'[39m, value: [32m'Accountant III'[39m },
+    { _id: [32m'Office Assistant I'[39m, value: [32m'Office Assistant I'[39m },
+    { _id: [32m'Design Engineer'[39m, value: [32m'Design Engineer'[39m },
+    { _id: [32m'Executive Secretary'[39m, value: [32m'Executive Secretary'[39m },
+    { _id: [32m'Clinical Specialist'[39m, value: [32m'Clinical Specialist'[39m },
+    {
+      _id: [32m'Account Representative III'[39m,
+      value: [32m'Account Representative III'[39m
+    },
+    { _id: [32m'Media Manager II'[39m, value: [32m'Media Manager II'[39m },
+    { _id: [32m'Analyst Programmer'[39m, value: [32m'Analyst Programmer'[39m },
+    { _id: [32m'Staff Accountant II'[39m, value: [32m'Staff Accountant II'[39m },
+    { _id: [32m'Developer III'[39m, value: [32m'Developer III'[39m },
+    { _id: [32m'Statistician IV'[39m, value: [32m'Statistician IV'[39m },
+    { _id: [32m'Assistant Manager'[39m, value: [32m'Assistant Manager'[39m },
+    { _id: [32m'Engineer IV'[39m, value: [32m'Engineer IV'[39m },
+    { _id: [32m'Cost Accountant'[39m, value: [32m'Cost Accountant'[39m },
+    { _id: [32m'Junior Executive'[39m, value: [32m'Junior Executive'[39m },
+    { _id: [32m'Nurse Practicioner'[39m, value: [32m'Nurse Practicioner'[39m },
+    { _id: [32m'Programmer Analyst III'[39m, value: [32m'Programmer Analyst III'[39m },
+    { _id: [32m'Software Engineer IV'[39m, value: [32m'Software Engineer IV'[39m },
+    { _id: [32m'Accountant IV'[39m, value: [32m'Accountant IV'[39m },
+    { _id: [32m'Software Engineer III'[39m, value: [32m'Software Engineer III'[39m },
+    { _id: [32m'Developer IV'[39m, value: [32m'Developer IV'[39m },
+    {
+      _id: [32m'Senior Financial Analyst'[39m,
+      value: [32m'Senior Financial Analyst'[39m
+    },
+    { _id: [32m'Registered Nurse'[39m, value: [32m'Registered Nurse'[39m },
+    {
+      _id: [32m'Account Representative I'[39m,
+      value: [32m'Account Representative I'[39m
+    },
+    { _id: [32m'Engineer II'[39m, value: [32m'Engineer II'[39m },
+    {
+      _id: [32m'Account Representative IV'[39m,
+      value: [32m'Account Representative IV'[39m
+    },
+    {
+      _id: [32m'Database Administrator IV'[39m,
+      value: [32m'Database Administrator IV'[39m
+    },
+    {
+      _id: [32m'Software Test Engineer III'[39m,
+      value: [32m'Software Test Engineer III'[39m
+    },
+    { _id: [32m'Quality Engineer'[39m, value: [32m'Quality Engineer'[39m },
+    { _id: [32m'Tax Accountant'[39m, value: [32m'Tax Accountant'[39m },
+    {
+      _id: [32m'Database Administrator III'[39m,
+      value: [32m'Database Administrator III'[39m
+    },
+    { _id: [32m'Associate Professor'[39m, value: [32m'Associate Professor'[39m },
+    { _id: [32m'Senior Cost Accountant'[39m, value: [32m'Senior Cost Accountant'[39m },
+    { _id: [32m'Senior Developer'[39m, value: [32m'Senior Developer'[39m },
+    {
+      _id: [32m'Mechanical Systems Engineer'[39m,
+      value: [32m'Mechanical Systems Engineer'[39m
+    },
+    { _id: [32m'Speech Pathologist'[39m, value: [32m'Speech Pathologist'[39m },
+    { _id: [32m'Graphic Designer'[39m, value: [32m'Graphic Designer'[39m },
+    { _id: [32m'Biostatistician IV'[39m, value: [32m'Biostatistician IV'[39m },
+    { _id: [32m'Biostatistician III'[39m, value: [32m'Biostatistician III'[39m },
+    { _id: [32m'Product Engineer'[39m, value: [32m'Product Engineer'[39m },
+    { _id: [32m'Geologist I'[39m, value: [32m'Geologist I'[39m },
+    { _id: [32m'Safety Technician II'[39m, value: [32m'Safety Technician II'[39m },
+    { _id: [32m'Web Designer IV'[39m, value: [32m'Web Designer IV'[39m },
+    { _id: [32m'Software Consultant'[39m, value: [32m'Software Consultant'[39m },
+    {
+      _id: [32m'Environmental Specialist'[39m,
+      value: [32m'Environmental Specialist'[39m
+    },
+    { _id: [32m'Technical Writer'[39m, value: [32m'Technical Writer'[39m },
+    { _id: [32m'Media Manager IV'[39m, value: [32m'Media Manager IV'[39m },
+    { _id: [32m'Programmer II'[39m, value: [32m'Programmer II'[39m },
+    {
+      _id: [32m'Analog Circuit Design manager'[39m,
+      value: [32m'Analog Circuit Design manager'[39m
+    },
+    { _id: [32m'Web Designer II'[39m, value: [32m'Web Designer II'[39m },
+    {
+      _id: [32m'Automation Specialist I'[39m,
+      value: [32m'Automation Specialist I'[39m
+    },
+    { _id: [32m'Health Coach III'[39m, value: [32m'Health Coach III'[39m },
+    { _id: [32m'Editor'[39m, value: [32m'Editor'[39m },
+    { _id: [32m'Electrical Engineer'[39m, value: [32m'Electrical Engineer'[39m },
+    { _id: [32m'Statistician II'[39m, value: [32m'Statistician II'[39m },
+    { _id: [32m'Chemical Engineer'[39m, value: [32m'Chemical Engineer'[39m },
+    { _id: [32m'Librarian'[39m, value: [32m'Librarian'[39m },
+    {
+      _id: [32m'Physical Therapy Assistant'[39m,
+      value: [32m'Physical Therapy Assistant'[39m
+    },
+    {
+      _id: [32m'Computer Systems Analyst III'[39m,
+      value: [32m'Computer Systems Analyst III'[39m
+    },
+    { _id: [32m'Account Executive'[39m, value: [32m'Account Executive'[39m },
+    {
+      _id: [32m'GIS Technical Architect'[39m,
+      value: [32m'GIS Technical Architect'[39m
+    },
+    {
+      _id: [32m'Software Test Engineer I'[39m,
+      value: [32m'Software Test Engineer I'[39m
+    },
+    { _id: [32m'VP Product Management'[39m, value: [32m'VP Product Management'[39m },
+    { _id: [32m'Civil Engineer'[39m, value: [32m'Civil Engineer'[39m },
+    {
+      _id: [32m'Administrative Assistant III'[39m,
+      value: [32m'Administrative Assistant III'[39m
+    },
+    { _id: [32m'Programmer IV'[39m, value: [32m'Programmer IV'[39m },
+    {
+      _id: [32m'Information Systems Manager'[39m,
+      value: [32m'Information Systems Manager'[39m
+    },
+    { _id: [32m'Account Coordinator'[39m, value: [32m'Account Coordinator'[39m },
+    {
+      _id: [32m'Automation Specialist III'[39m,
+      value: [32m'Automation Specialist III'[39m
+    },
+    ... 95 more items
+  ],
+  ok: [33m1[39m
+}
