@@ -1,0 +1,10 @@
+﻿[
+  {
+    "f.airline": "19977",
+    "sum(countA + countDest)": 316
+  },
+  {
+    "f.airline": "20304",
+    "sum(countA + countDest)": 292
+  }
+]
