@@ -9,7 +9,6 @@ services:
       - 7687:7687
     volumes:
       - ./db_data:/data
-      - ./zadania:/opt/zadania
     environment:
       - NEO4J_AUTH=none
 
