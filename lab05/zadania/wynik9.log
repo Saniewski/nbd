@@ -1,0 +1,69 @@
+
+/****************
+ * Zapytanie9.0 *
+ ****************/
+
+$ curl -i -v http://localhost:8098/buckets/s16996/keys?keys=true
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /buckets/s16996/keys?keys=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 14 Jun 2022 21:45:29 GMT
+Date: Tue, 14 Jun 2022 21:45:29 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 100
+Content-Length: 100
+
+<
+* Connection #0 to host localhost left intact
+{"keys":["zapytanie1-1","zapytanie1-5","8MVDzK8gnkthd7EwC3fEeRSOY1L","zapytanie1-2","zapytanie1-3"]}
+
+
+/****************
+ * Zapytanie9.1 *
+ ****************/
+
+$ curl -i -v http://localhost:8098/types/default/buckets/s16996/keys/8MVDzK8gnkthd7EwC3fEeRSOY1L
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /types/default/buckets/s16996/keys/8MVDzK8gnkthd7EwC3fEeRSOY1L HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXfrlDhBIZ81gZ4mpl7/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXfrlDhBIZ81gZ4mpl7/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:45:02 GMT
+Last-Modified: Tue, 14 Jun 2022 21:45:02 GMT
+< ETag: "4Po1nzRQYPn735ZrkadAur"
+ETag: "4Po1nzRQYPn735ZrkadAur"
+< Date: Tue, 14 Jun 2022 21:46:37 GMT
+Date: Tue, 14 Jun 2022 21:46:37 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 23
+Content-Length: 23
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Johnny"}

@@ -1,0 +1,260 @@
+
+/****************
+ * Zapytanie1.0 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/props \
+> -i -v -X PUT \
+> --header 'Content-Type: application/json' \
+> --data '{"props": {}}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/props HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 13
+>
+* upload completely sent off: 13 out of 13 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 14 Jun 2022 21:19:54 GMT
+Date: Tue, 14 Jun 2022 21:19:54 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 0
+Content-Length: 0
+
+<
+* Connection #0 to host localhost left intact
+
+
+/****************
+ * Zapytanie1.1 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-1?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "John", "lastName": "Doe", "age": 24, "isEmployed": true}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-1?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 71
+>
+* upload completely sent off: 71 out of 71 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQpXnD9DhBIZ81gZ1lfI3uHLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQpXnD9DhBIZ81gZ1lfI3uHLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:25:03 GMT
+Last-Modified: Tue, 14 Jun 2022 21:25:03 GMT
+< ETag: "7cqAVLwLzP3WnAnmWr7LrH"
+ETag: "7cqAVLwLzP3WnAnmWr7LrH"
+< Date: Tue, 14 Jun 2022 21:25:03 GMT
+Date: Tue, 14 Jun 2022 21:25:03 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 71
+Content-Length: 71
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "John", "lastName": "Doe", "age": 24, "isEmployed": true}
+
+
+/****************
+ * Zapytanie1.2 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-2?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "Jane", "lastName": "Doe", "age": 21, "isEmployed": false}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-2?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 72
+>
+* upload completely sent off: 72 out of 72 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQrX3XZDhBIZ81gZTCpl7/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQrX3XZDhBIZ81gZTCpl7/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:27:16 GMT
+Last-Modified: Tue, 14 Jun 2022 21:27:16 GMT
+< ETag: "4keYQNFwIqanDKSZeJ54D1"
+ETag: "4keYQNFwIqanDKSZeJ54D1"
+< Date: Tue, 14 Jun 2022 21:27:16 GMT
+Date: Tue, 14 Jun 2022 21:27:16 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 72
+Content-Length: 72
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Jane", "lastName": "Doe", "age": 21, "isEmployed": false}
+
+
+/****************
+ * Zapytanie1.3 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-3?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "Mark", "lastName": "Twain", "age": 63, "isEmployed": false}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-3?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 74
+>
+* upload completely sent off: 74 out of 74 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXw+9DhBIZ81gZ8itl7/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXw+9DhBIZ81gZ8itl7/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:28:15 GMT
+Last-Modified: Tue, 14 Jun 2022 21:28:15 GMT
+< ETag: "1uvORE0BSUhTIa8pi1e4q"
+ETag: "1uvORE0BSUhTIa8pi1e4q"
+< Date: Tue, 14 Jun 2022 21:28:15 GMT
+Date: Tue, 14 Jun 2022 21:28:15 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 74
+Content-Length: 74
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Mark", "lastName": "Twain", "age": 63, "isEmployed": false}
+
+
+/****************
+ * Zapytanie1.4 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-4?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "Julius", "lastName": "Caesar", "age": 50, "isEmployed": false}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-4?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 77
+>
+* upload completely sent off: 77 out of 77 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQrnN22BCCUy5rEydFbK3uHLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQrnN22BCCUy5rEydFbK3uHLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:28:41 GMT
+Last-Modified: Tue, 14 Jun 2022 21:28:41 GMT
+< ETag: "y4p0U65SsAZ05YY9RJiyb"
+ETag: "y4p0U65SsAZ05YY9RJiyb"
+< Date: Tue, 14 Jun 2022 21:28:41 GMT
+Date: Tue, 14 Jun 2022 21:28:41 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 77
+Content-Length: 77
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Julius", "lastName": "Caesar", "age": 50, "isEmployed": false}
+
+
+/****************
+ * Zapytanie1.5 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-5?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "Bob", "lastName": "Builder", "age": 42, "isEmployed": true}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-5?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 74
+>
+* upload completely sent off: 74 out of 74 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXflyACCUy5rEyLKqUvcOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXflyACCUy5rEyLKqUvcOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:29:06 GMT
+Last-Modified: Tue, 14 Jun 2022 21:29:06 GMT
+< ETag: "4lYmfSrfzKDoX9FgYHYIY2"
+ETag: "4lYmfSrfzKDoX9FgYHYIY2"
+< Date: Tue, 14 Jun 2022 21:29:06 GMT
+Date: Tue, 14 Jun 2022 21:29:06 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 74
+Content-Length: 74
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Bob", "lastName": "Builder", "age": 42, "isEmployed": true}

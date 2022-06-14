@@ -1,0 +1,28 @@
+
+/****************
+ * Zapytanie7 *
+ ****************/
+
+$ curl -i -v http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-4
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /types/default/buckets/s16996/keys/zapytanie1-4 HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Object Not Found
+HTTP/1.1 404 Object Not Found
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Tue, 14 Jun 2022 21:44:35 GMT
+Date: Tue, 14 Jun 2022 21:44:35 GMT
+< Content-Type: text/plain
+Content-Type: text/plain
+< Content-Length: 10
+Content-Length: 10
+
+<
+not found
+* Connection #0 to host localhost left intact

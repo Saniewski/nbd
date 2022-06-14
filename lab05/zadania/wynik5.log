@@ -1,0 +1,44 @@
+
+/****************
+ * Zapytanie5 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/zapytanie1-1?returnbody=true \
+    -i -v -X PUT \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "John", "lastName": "Doe", "age": 24, "isEmployed": false}'
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /types/default/buckets/s16996/keys/zapytanie1-1?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 72
+>
+* upload completely sent off: 72 out of 72 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQpXnD9DhBJZ8lgZRGtl7/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQpXnD9DhBJZ8lgZRGtl7/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:43:49 GMT
+Last-Modified: Tue, 14 Jun 2022 21:43:49 GMT
+< ETag: "6QffZC7Uj0n6MzO8qigjc"
+ETag: "6QffZC7Uj0n6MzO8qigjc"
+< Date: Tue, 14 Jun 2022 21:43:49 GMT
+Date: Tue, 14 Jun 2022 21:43:49 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 72
+Content-Length: 72
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "John", "lastName": "Doe", "age": 24, "isEmployed": false}

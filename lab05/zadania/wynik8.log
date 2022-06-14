@@ -1,0 +1,47 @@
+
+/****************
+ * Zapytanie8 *
+ ****************/
+
+$ curl http://localhost:8098/types/default/buckets/s16996/keys/?returnbody=true \
+    -i -v -X POST \
+    --header 'Content-Type: application/json' \
+    --data '{"firstName": "Johnny"}'
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 127.0.0.1:8098...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> POST /types/default/buckets/s16996/keys/?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.74.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 23
+>
+* upload completely sent off: 23 out of 23 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+HTTP/1.1 201 Created
+< X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXfrlDhBIZ81gZ4mpl7/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8DAbyfQqXfrlDhBIZ81gZ4mpl7/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Location: /types/default/buckets/s16996/keys/8MVDzK8gnkthd7EwC3fEeRSOY1L
+Location: /types/default/buckets/s16996/keys/8MVDzK8gnkthd7EwC3fEeRSOY1L
+< Link: </buckets/s16996>; rel="up"
+Link: </buckets/s16996>; rel="up"
+< Last-Modified: Tue, 14 Jun 2022 21:45:02 GMT
+Last-Modified: Tue, 14 Jun 2022 21:45:02 GMT
+< ETag: "4Po1nzRQYPn735ZrkadAur"
+ETag: "4Po1nzRQYPn735ZrkadAur"
+< Date: Tue, 14 Jun 2022 21:45:02 GMT
+Date: Tue, 14 Jun 2022 21:45:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 23
+Content-Length: 23
+
+<
+* Connection #0 to host localhost left intact
+{"firstName": "Johnny"}
