@@ -29,4 +29,4 @@ mongosh nbd -u mangouser -p m@ng0 --authenticationDatabase=admin --quiet zapytan
 ```
 
 ## Author
-[Pawel Saniewski](https://github.com/Saniewski)
+[Pawel Saniewski s16996](https://github.com/Saniewski)
